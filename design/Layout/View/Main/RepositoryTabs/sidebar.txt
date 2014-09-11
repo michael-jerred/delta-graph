@@ -1,0 +1,5 @@
+Working copy link
+List of branches
+List of remote branches
+List of tags
+Tabs: working copy, Branches, Remotes, Tags, Stash

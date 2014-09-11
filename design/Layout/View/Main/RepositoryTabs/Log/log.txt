@@ -1,0 +1,4 @@
+search bar at the top
+checkbox show remote branches
+colums: commit SHA1, Author, Message, Graph, Date
+	order by any column

@@ -1,0 +1,41 @@
+GUI:
+	toolbar with icons:
+		Clone, Pull, Push | Branch, Merge, Rebase, Tag | Checkout, Commit, Discard, Shelve, Add, Remove | Create Patch, Apply Patch | Settings
+		Blame
+
+	list of repos:
+		arrange in folders. Can expand an entry to show subrepos
+		show number of added/removed/modified files
+
+		toolbar with icons:
+			Add Repo, Delete Repo, Repo login setting
+
+	tab view:
+		visual studio 2013 style preive tab, pinned tabs. Tabs can be rearranged
+
+		each tab:
+			All/Current branches selection. All branches is normal, current branch shows only changes that are in the history of the current branch
+
+			hide/show remote branches - the branch labels on the commits
+
+			graph with colors
+
+			list of branches, remotes (with remote branches), tags
+
+	Dialogs:
+		Merge:
+
+		Branch:
+			bring up log to choose which commit to branch from
+
+
+Project layout:
+	View - gtk, links to button actions etc
+	Model - vars like selectedBranch, functions like switchBranch
+	Controller - logic to decide which git commands to execute, what needs updating on the model etc
+
+	View
+
+	
+
+	Git

@@ -1,0 +1,4 @@
+Udiff format
+discard hunk : on uncomitted changes
+reverse hunk : on log entry
+button to open in external diff tool
