@@ -30,12 +30,8 @@ GUI:
 
 
 Project layout:
-	View - gtk, links to button actions etc
-	Model - vars like selectedBranch, functions like switchBranch
-	Controller - logic to decide which git commands to execute, what needs updating on the model etc
-
-	View
-
-	
-
-	Git
+	QML : View
+	Python : ViewModel
+	D : Model
+	D : GitApi
+	D : WebApi
